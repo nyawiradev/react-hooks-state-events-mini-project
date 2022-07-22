@@ -1,6 +1,6 @@
 import React from "react";
 
-function Task() {
+function Task({name, category}){
   return (
     <div className="task">
       <div className="label">CATEGORY HERE</div>
